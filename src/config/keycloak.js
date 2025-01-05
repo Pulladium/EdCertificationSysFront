@@ -4,7 +4,7 @@ import Keycloak from "keycloak-js";
 const initOptions = {
     url: 'http://localhost:8484/',
     realm: 'CertEdu',
-    clientId: 'cert-edu-api',
+    clientId: 'react-client-certedu-api',
 };
 
 const keycloak = new Keycloak(initOptions);
